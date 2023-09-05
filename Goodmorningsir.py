@@ -6,7 +6,7 @@ timesecs = time.strftime("%S")
 if(timehour>5 and timehour < 12):
     print("Good Morning Sir ")
 
-elif(timehour>12 and timehour<=4):
+elif(timehour>00 and timehour<=16):
     print("Good Afternoon Sir")
 
 else:
