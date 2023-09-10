@@ -12,3 +12,9 @@ for i in range(0,2):
     
 
 print("Your point is ",points)
+
+# print("Write any one of the option")
+# print(Questions[0])
+# print("[A] Narendra Modi                          [B] Manmohan Singh")
+# print("[C] Indira Gandhi                          [D] Jawaharlal Nehru")
+# if()
