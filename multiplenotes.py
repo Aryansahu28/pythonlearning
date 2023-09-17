@@ -15,7 +15,7 @@ def find_note_combinations(target_price, notes_available, current_combination=[]
     # 2. Move to the next denomination
     find_note_combinations(target_price, notes_available[1:], current_combination)
 
-# Example usage:
+# Example usage here:
 target_price = 50
 notes_available = [10, 20, 50]  # Denominations available
 find_note_combinations(target_price, notes_available, [])
