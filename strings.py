@@ -1,8 +1,4 @@
-time = '''Hello My name is Aryan 
-I am here to learn how to code and learn a new method to code which i don't know but
-here I am start to learn python real quick'''
+Bag = "ABCDEFGHIJKLMN"
 
-Bag = "This is nothing"
-
-print(time)
-print(Bag[1])
+x = Bag[-1:-12:-2]
+print(x)
