@@ -1,0 +1,16 @@
+def collatz_sequence(x):
+    while(True):
+        x = int(x)
+        if x%2==0:
+            print(x," ",end="")
+            x=x/2
+            
+        elif x==1:
+            print(x)
+            break
+
+        else:
+            print(x," ",end="")
+            x = 3*x+1
+
+collatz_sequence(7)
